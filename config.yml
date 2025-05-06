@@ -5,11 +5,11 @@ site:
   date_format: "%Y-%m-%d"
 
 paths:
-  input_dir: "md"
-  output_dir: "blog"
+  input_dir: "dist/md"
+  output_dir: "dist/blog"
   index_template: "assets/html/index.html"
   post_template: "assets/html/post.html"
   css_path: "assets/css/style.css"
-  rss_output: "rss.xml"
-  index_output: "index.html"
+  rss_output: "dist/rss.xml"
+  index_output: "dist/index.html"
 
