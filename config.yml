@@ -5,7 +5,7 @@ site:
   date_format: "%Y-%m-%d"
 
 paths:
-  input_dir: "dist/md"
+  input_dir: "md"
   output_dir: "dist/blog"
   index_template: "assets/html/index.html"
   post_template: "assets/html/post.html"
