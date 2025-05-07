@@ -296,3 +296,7 @@ img + blockquote {
   padding-left: 0;
   font-style: normal;
 }
+
+input[type="checkbox"] {
+  accent-color: var(--accent);
+}
