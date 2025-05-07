@@ -113,6 +113,7 @@ def build_feed(config: dict, blog: list):
     fg = FeedGenerator()
     fg.generator(None)
     fg.docs(None)
+    fg.description("A blog by Ivan Tikhonov")
     fg.title(config["site"]["title"])
     fg.link(href=config["site"]["url"], rel="alternate")
     fg.lastBuildDate(datetime.now(timezone.utc))
