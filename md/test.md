@@ -7,7 +7,6 @@ This is my first post using GitHub Pages! I am using small Python script convert
 ```python
 def hello(name: str = None) -> None:
     if not name:
-        print("Hello, World!")
-        return
+        name = "world"
     print(f"Hello, {str(name).title()}!")
 ```
