@@ -7,8 +7,8 @@ site:
 paths:
   input_dir: "md"
   output_dir: "dist/blog"
-  index_template: "assets/html/index.html"
-  post_template: "assets/html/post.html"
+  index_template: "templates/index.html"
+  post_template: "templates/post.html"
   css_path: "assets/css/style.css"
   rss_output: "dist/rss.xml"
   index_output: "dist/index.html"
