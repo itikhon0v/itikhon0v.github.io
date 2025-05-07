@@ -111,9 +111,10 @@ def build_index(config: dict, blog: list, start_time):
 
 def build_feed(config: dict, blog: list):
     fg = FeedGenerator()
+    fg.generator(None)
+    fg.docs(None)
     fg.title(config["site"]["title"])
     fg.link(href=config["site"]["url"], rel="alternate")
-    fg.description("RSS feed for " + config["site"]["title"])
     fg.lastBuildDate(datetime.now(timezone.utc))
 
     for post in sorted(blog, key=lambda x: x.date, reverse=True):

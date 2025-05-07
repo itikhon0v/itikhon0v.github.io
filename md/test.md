@@ -1,12 +1,13 @@
 Hello, world!
 2025-05-05
-intro, blog, posixpress
+intro, blog, python
 
-This is my first post using `posixpress`, a tiny static site generator written in Python and YAML.
+This is my first post using GitHub Pages! I am using small Python script converting markdown and generating RSS
 
-## How it works
-
-- Posts are written in Markdown
-- YAML frontmatter contains metadata
-- Templates are clean HTML
-
+```python
+def hello(name: str = None) -> None:
+    if not name:
+        print("Hello, World!")
+        return
+    print(f"Hello, {str(name).title()}!")
+```
