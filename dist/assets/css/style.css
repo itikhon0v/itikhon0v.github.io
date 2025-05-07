@@ -111,6 +111,12 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+body::selection {
+  background: var(--accent);
+  color: var(--background);
+  text-shadow: none;
+}
+
 nav {
   margin-bottom: 20px;
 }
@@ -188,12 +194,16 @@ h1 + blockquote {
 
 ul {
   list-style: square inside;
-  padding-left: 1.5em;
+  padding-left: 0.5em;
 }
 
 ol {
   list-style: decimal-leading-zero inside;
-  padding-left: 1.5em;
+  padding-left: 0.5em;
+}
+
+li {
+  margin: 0.3em 0;
 }
 
 a {
@@ -204,8 +214,11 @@ a {
   transition: border-bottom 0.2s ease-in-out;
 }
 
-a:hover {
+a:hover,
+a:focus,
+a:active {
   color: var(--link-hover);
+  outline: none;
   border-bottom: 3px solid var(--link-hover);
 }
 
@@ -219,7 +232,6 @@ code {
   font-family: var(--font-mono);
   background-color: var(--code-bg);
   border-radius: 2px;
-  user-select: all;
 }
 
 pre {
@@ -236,6 +248,7 @@ pre > code {
 code {
   font-size: 1em;
   padding: 2px 5px;
+  user-select: all;
 }
 
 table {
