@@ -1,4 +1,4 @@
-Applied QA: How not to drown
+Applied QA: How Not To Drown
 2025-05-06
 web, qa, getting-things-done
 
