@@ -2,30 +2,66 @@ Hello, world!
 2025-05-05
 intro, blog, python
 
-This is my first post using GitHub Pages! I am using small Python script converting markdown and generating RSS
+# Sample Article: Markdown Test
+
+## Introduction
+
+Welcome to this test article. It showcases the various features of Markdown formatting, along with some raw HTML. We'll use both **Latin** and **Cyrillic** texts in this article.
+
+### What is Markdown?
+
+Markdown is a lightweight markup language with plain-text formatting syntax. Its design allows it to be converted to many output formats, but it’s commonly used to format text on websites like GitHub.
+
+> **Quote Section**  
+> This is a blockquote to demonstrate the design. Here's some Cyrillic text: Пример текста на кириллице.
+
+### Features of Markdown
+
+- **Bold** and *italic* formatting.
+- Code blocks and inline code.
+- Lists:
+    - First item
+    - Second item
+    - Third item
+- Tables
+- Raw HTML
+
+#### Example Code Block
 
 ```python
-function previewMonoFont() {
-    const symbols = `
-        // Letters
-        Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
-        // Digits
-        0 1 2 3 4 5 6 7 8 9
-        // Common punctuation
-        . , ; : ! ? ' " \` ~ # @ $ % ^ & * ( ) - _ + = / \\ | < > [ ] { }
-        // Math & logic
-        + - * / % = != === !== < > <= >= && || ++ -- ~ ^ | & << >> >>> ?
-        // Miscellaneous
-        © ™ ∞ π ∑ √ µ ∆ → ← ↑ ↓ ∫ ≈ ≠ ± § ¶ ‽ ‼
-        // Box drawing (if supported)
-        ─ │ ┌ ┐ └ ┘ ┬ ┴ ├ ┤ ┼ ╔ ╗ ╚ ╝ ╦ ╩ ╠ ╣ ╬
-        // Emoji test 😊 🚀 💻 🐍 📦 🧠 🔒
-    `;
+def hello_world():
+    print("Hello, World!")
+````
 
-    console.log("=== Mono Font Preview ===");
-    console.log(symbols);
-}
+This is an example of a fenced code block in Markdown. It's styled with a monospace font.
 
-previewMonoFont();
+### Tables
 
-```
+| Header 1 | Header 2 | Header 3 |
+| -------- | -------- | -------- |
+| Cell 1   | Cell 2   | Cell 3   |
+| Cell 4   | Cell 5   | Cell 6   |
+
+### HTML Example
+
+Here's an example of a raw HTML block within a Markdown file:
+
+<div class="alert">
+    <p>This is an HTML block inside Markdown content.</p>
+</div>
+
+### Image with Caption
+
+![Sample Image](https://via.placeholder.com/300)
+*This is a sample image with a caption.*
+
+### Form Elements
+
+<input type="checkbox" checked> This is a checkbox.
+
+### Footer
+
+This is the footer of the article. It uses a smaller font size to fit the design.
+
+**Thank you for reading!**
+This concludes the Markdown test article with various elements. Here’s one last sentence in Cyrillic: Спасибо за внимание.
