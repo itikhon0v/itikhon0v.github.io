@@ -31,7 +31,7 @@ Markdown is a lightweight markup language with plain-text formatting syntax. Its
 ```python
 def hello_world():
     print("Hello, World!")
-````
+```
 
 This is an example of a fenced code block in Markdown. It's styled with a monospace font.
 
@@ -52,7 +52,7 @@ Here's an example of a raw HTML block within a Markdown file:
 
 ### Image with Caption
 
-![Sample Image](https://via.placeholder.com/300)
+![Sample Image](https://picsum.photos/200)
 *This is a sample image with a caption.*
 
 ### Form Elements
