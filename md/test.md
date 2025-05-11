@@ -1,6 +1,6 @@
 Hello, world!
 2025-05-05
-intro, blog, python
+test, markdown, blog
 
 # Sample Article: Markdown Test
 
