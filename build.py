@@ -102,7 +102,7 @@ def build_index(config: dict, blog: list, start_time):
         "BLOG": posts_html,
         "YEAR": str(now.year),
         "BUILD_DATE": now.strftime("%Y-%m-%d %H:%M:%S UTC"),
-        "BUILD_TIME": str(datetime.now() - start_time)
+        "BUILD_TIME": f"{(datetime.now() - start_time).total_seconds())} s"
     }
 
     output_html = render_template(template, context)
@@ -113,7 +113,7 @@ def build_feed(config: dict, blog: list):
     fg = FeedGenerator()
     fg.generator(None)
     fg.docs(None)
-    fg.description("A blog by Ivan Tikhonov")
+    fg.description(config["site"]["description"])
     fg.title(config["site"]["title"])
     fg.link(href=config["site"]["url"], rel="alternate")
     fg.lastBuildDate(datetime.now(timezone.utc))

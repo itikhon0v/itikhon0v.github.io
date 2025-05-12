@@ -1,5 +1,6 @@
 site:
-  title: "itikhon0v.log"
+  title: "Ivan Tikhonov's Blog"
+  description: "A collection of post-its I couldn’t have found on the internet"
   url: "https://itikhon0v.github.io"
   author: "Ivan Tikhonov"
   date_format: "%Y-%m-%d"
@@ -9,7 +10,6 @@ paths:
   output_dir: "dist/blog"
   index_template: "templates/index.html"
   post_template: "templates/post.html"
-  css_path: "assets/css/style.css"
   rss_output: "dist/rss.xml"
   index_output: "dist/index.html"
 
