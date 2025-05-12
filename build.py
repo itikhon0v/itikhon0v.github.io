@@ -117,7 +117,6 @@ def build_feed(config: dict, blog: list):
     fg.title(config["site"]["title"])
     fg.link(href=config["site"]["url"], rel="alternate")
     fg.lastBuildDate(datetime.now(timezone.utc))
-    fg._feed.attrib.pop("xmlns:atom", None)
 
     for post in sorted(blog, key=lambda x: x.date, reverse=True):
         fe = fg.add_entry()
