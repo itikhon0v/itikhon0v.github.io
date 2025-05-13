@@ -101,7 +101,7 @@ def build_index(config: dict, blog: list, start_time):
     context = {
         "BLOG": posts_html,
         "YEAR": str(now.year),
-        "BUILD_DATE": now.strftime("%m/%d %H:%M:%S UTC"),
+        "BUILD_DATE": now.strftime("%b %d %H:%M:%S UTC"),
         "BUILD_TIME": f"{(datetime.now() - start_time).total_seconds():.2f} s"
     }
 
